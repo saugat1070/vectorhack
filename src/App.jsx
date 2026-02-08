@@ -2,6 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Navbar, Footer, ScrollToTop, Background } from "./components/layout";
 import { Home, Contact } from "./pages";
+import CountDown from "./pages/countDown";
+import TimeLeft from "./pages/timeleft";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/countdown" element={<CountDown />} />
+          <Route path="/timeleft" element={<TimeLeft />} />
         </Routes>
       </main>
       <Footer />
