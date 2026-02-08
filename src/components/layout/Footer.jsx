@@ -28,8 +28,8 @@ const Footer = () => {
               to="/"
               className="flex items-center gap-3 text-white no-underline"
             >
-              <div className="flex h-11.25 w-11.25 items-center justify-center rounded-[10px] bg-[linear-gradient(135deg,#005b96_0%,#513c97_100%)] text-[1.2rem] font-bold">
-                VH
+              <div className="flex h-11.25 w-11.25 items-center justify-center ">
+                <img src="/favicon.svg" alt="" />
               </div>
               <span className="text-[1.4rem] font-bold font-['Space_Grotesk',Inter,sans-serif]">
                 Vector<span className="text-[#4aacd3]">Hack</span>
