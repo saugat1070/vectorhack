@@ -117,7 +117,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between gap-4 border-t border-[#2a2a3a] pt-8 text-center md:text-left">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-t border-[#2a2a3a] pt-6">
           <p className="text-[0.9rem] text-[#535353]">
             © 2026 VectorHack. Organized by{" "}
             <a
@@ -135,11 +135,13 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-3 text-[#535353] transition duration-300 hover:text-[#4aacd3]"
           >
-            <img src="/i-CES Logo.svg" alt="i-CES Logo" height="40" className="rounded-lg" />
-            <span className="text-[0.9rem]">
+            <div className="w-40 h-40 ">
+              <img src="/i-CES Logo.svg" alt="i-ces logo" />
+            </div>
+          </a>
+          <span className="text-[0.9rem]">
               Innovative Computer Engineering Students' Society
             </span>
-          </a>
         </div>
       </div>
     </footer>
