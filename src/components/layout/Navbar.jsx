@@ -41,10 +41,10 @@ const Navbar = () => {
       className=""
     >
       <div
-        className={`fixed top-0 z-50 px-2 py-4 transform transition-all duration-300 ${
+        className={`fixed top-0 z-50 px-2 py-4 w-full transform transition-all duration-300 ${
           isScrolled
-            ? "left-1/2 -translate-x-1/2 top-5 rounded-full border-b bg-[rgba(10,10,15,0.95)] backdrop-blur-[20px] w-[80%] glass"
-            : "left-0 translate-x-0 top-0 bg-transparent w-full"
+            ? "left-1/2 -translate-x-1/2 top-5 rounded-full border-b bg-[rgba(10,10,15,0.95)] backdrop-blur-[20px] md:w-[80%] glass"
+            : "left-0 translate-x-0 top-0 bg-transparent"
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5">
