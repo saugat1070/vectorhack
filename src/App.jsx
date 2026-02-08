@@ -5,7 +5,7 @@ import { Home, Contact } from "./pages";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen overflow-x-hidden bg-[#0a0a0f] text-white font-['Inter',-apple-system,BlinkMacSystemFont,'Segoe_UI',Roboto,sans-serif]">
       <Background />
       <Navbar />
       <main>
@@ -16,7 +16,7 @@ function App() {
       </main>
       <Footer />
       <ScrollToTop />
-    </>
+    </div>
   );
 }
 
