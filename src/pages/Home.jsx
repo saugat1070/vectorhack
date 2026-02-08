@@ -10,7 +10,7 @@ import {
   FAQ,
   CTA,
 } from "../components/sections";
-
+import TimeCountDown from "../components/sections/TimeCountDown";
 const Home = () => {
   const location = useLocation();
 
@@ -40,6 +40,7 @@ const Home = () => {
     <>
       <Hero />
       <About />
+      <TimeCountDown/>
       <Themes />
       <Timeline />
       <Rules />
