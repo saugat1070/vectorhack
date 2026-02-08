@@ -50,7 +50,7 @@ const About = () => {
                 className="rounded-2xl border border-[#2a2a3a] bg-[#0a0a0f] p-6 text-center transition duration-300 hover:-translate-y-1 hover:border-[#4aacd3]"
                 key={index}
               >
-                <span className="text-[2.5rem] font-bold font-['Space_Grotesk',Inter,sans-serif] bg-[linear-gradient(135deg,#4aacd3_0%,#005b96_100%)] bg-clip-text text-transparent">
+                <span className="text-2xl md:text-4xl font-bold font-['Space_Grotesk',Inter,sans-serif] bg-[linear-gradient(135deg,#4aacd3_0%,#005b96_100%)] bg-clip-text text-transparent">
                   {stat.value}
                 </span>
                 <span className="mt-2 block text-sm text-[#535353]">
