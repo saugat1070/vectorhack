@@ -25,6 +25,7 @@ const Hero = () => {
       className="relative flex min-h-screen items-center justify-center pt-20"
       id="home"
     >
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#1e3a8a_0%,transparent_55%)] opacity-40" />
       <div className="mx-auto w-full max-w-300 px-5">
         <div className="mx-auto max-w-300 text-center">
           {/* <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[rgba(74,172,211,0.3)] bg-[rgba(74,172,211,0.1)] px-5 py-2 text-sm">
