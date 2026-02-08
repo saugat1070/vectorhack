@@ -6,3 +6,4 @@ export { default as Rules } from "./Rules";
 export { default as Prizes } from "./Prizes";
 export { default as FAQ } from "./FAQ";
 export { default as CTA } from "./CTA";
+export { default as Schedule } from "./Schedule";
