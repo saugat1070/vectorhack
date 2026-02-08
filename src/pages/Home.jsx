@@ -5,6 +5,7 @@ import {
   About,
   Themes,
   Timeline,
+  Schedule,
   Rules,
   Prizes,
   FAQ,
@@ -43,10 +44,11 @@ const Home = () => {
       <TimeCountDown/>
       <Themes />
       <Timeline />
+      <Schedule />
       <Rules />
       <Prizes />
       <FAQ />
-      <CTA />
+      {/* <CTA /> */}
     </>
   );
 };
