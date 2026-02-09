@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { useCountdown } from "../hooks/useCountdown";
 
 const HACKATHON_DURATION_MS = 48 * 60 * 60 * 1000;
-const HACKATHON_START_ISO = "2026-02-09T10:00:00+05:45";
+const HACKATHON_START_ISO = "2026-02-09T10:10:00+05:45";
 
 function TimeLeft() {
   const hackathonStart = useMemo(

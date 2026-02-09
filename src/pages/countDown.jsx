@@ -8,7 +8,7 @@ import React, {
 import { useNavigate } from "react-router-dom";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
-const COUNTDOWN_SECONDS = 5;
+const COUNTDOWN_SECONDS = 10;
 const DOT_LOTTIE_URL =
   "https://lottie.host/71f827df-4e40-4730-b037-6d953f587b9e/MrkRvfMvAy.lottie";
 const ANIMATION_SPEED = 0.5;
